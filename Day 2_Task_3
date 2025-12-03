@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #eef2ff;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: #4a67ff;
+            padding: 12px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* Content section */
+        .content {
+            margin: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px #aaa;
+            position: relative;
+        }
+
+        /* Fixed bottom footer */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">Welcome to Home Page</div>
+
+    <div class="content">
+        <h2>Hello User!</h2>
+        <p>
+            This is your homepage. You have successfully logged in!  
+            Scroll to see how the sticky navbar stays at the top.
+        </p>
+        <p>
+            This box is positioned <b>relative</b> to the page.
+        </p>
+    </div>
+
+    <div class="footer">© 2025 My Website</div>
+
+</body>
+</html>
